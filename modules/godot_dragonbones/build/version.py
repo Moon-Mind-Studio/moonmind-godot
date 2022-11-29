@@ -1,0 +1,9 @@
+short_name = "godot-dragonbones"
+name = "Godot Dragonbones Engine"
+major = 3
+minor = 3
+patch = 51
+status = "stable"
+module_config = ""
+year = 2020
+website = "https://godotdragonbones.com"
