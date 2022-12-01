@@ -91,7 +91,7 @@ def configure(env):
     else:
         # Disable exceptions and rtti on non-tools (template) builds
         # These flags help keep the file size down.
-        env.Append(CCFLAGS=["-fno-exceptions", "-fno-rtti"])
+        env.Append(CCFLAGS=["-fno-exceptions"])
         # Don't use dynamic_cast, necessary with no-rtti.
         env.Append(CPPDEFINES=["NO_SAFE_CAST"])
 
